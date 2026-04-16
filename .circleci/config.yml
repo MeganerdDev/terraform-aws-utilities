@@ -135,8 +135,6 @@ jobs:
             cloud-nuke aws \
               --force \
               --log-level info \
-              --region us-east-1 \
-              --region us-east-2 \
               --older-than 1h \
               --include-tag "gw:repo=^https://github.com/gruntwork-io/terraform-aws-utilities$" \
               --output-format json \
